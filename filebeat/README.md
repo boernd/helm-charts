@@ -151,6 +151,7 @@ as a reference. They are also used in the automated testing of this chart.
 | `service.labels`               | Configurable [labels][] applied to the service                          | `{}`                               |
 | `service.annotations`          | Configurable [annotations][] applied to the service                     | `{}`                               |
 | `service.type`                 | The service type configuration for the service                          | `ClusterIP`                        |
+| `service.loadBalancerIP`       | The IP address to use when using service.type `LoadBalancer`            |                                    |
 | `service.ports`                | Ports configuration for the service                                     | `[]`                               |
 
 ### Deprecated
